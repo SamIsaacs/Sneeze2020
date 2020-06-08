@@ -18,6 +18,12 @@
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-  }
+    "strictInjectionParameters": true,
+    "enableIvy": false
+  },
+
+  "styles": [
+    "node_modules/@nebular/theme/styles/prebuilt/dark.css",
+  ]
 }
+
